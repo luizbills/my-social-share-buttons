@@ -2,7 +2,7 @@
 /*
 Plugin Name: My Social Share Buttons
 Description: Add social share buttons.
-Version: 1.1.0
+Version: 1.2.0
 GitHub Plugin URI: https://github.com/luizbills/my-social-share-buttons
 
 Author: Luiz Bills
@@ -20,7 +20,7 @@ Tested up to: 4.7
 
 if ( ! defined( 'ABSPATH' ) ) die;
 
-define( 'MSSB_PLUGIN_VERSION', '1.1.0' );
+define( 'MSSB_PLUGIN_VERSION', '1.2.0' );
 define( 'MSSB_FILE', __FILE__ );
 define( 'MSSB_DIR', dirname( __FILE__ ) );
 define( 'MSSB_ASSETS_DIR', trailingslashit( MSSB_DIR ) . 'static' );
