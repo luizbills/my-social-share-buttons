@@ -12,6 +12,7 @@ function mssb_render_buttons ( $options = [] ) {
 	$options['url'] = get_the_permalink( $options['ID'] );
 	$options['twitter_username'] = '';
 	$options['post_image'] = get_the_post_thumbnail_url( $options['ID'] );
+	$options['icon_size'] = 36;
 
 	$options = apply_filters( 'mssb_options', $options );
 
@@ -25,7 +26,7 @@ function mssb_render_buttons ( $options = [] ) {
 			<?php foreach ( $networks as $network ) : ?>
 
 			<a href="<?php echo mssb_get_social_share_url( $network, $options ); ?>" target="_blank" class="mssb_button" rel="nofollow noopener noreferrer" >
-				<?php echo mssb_get_network_image( $network ) ?>
+				<?php echo mssb_get_network_image( $network, $options ); ?>
 			</a>
 
 			<?php endforeach; ?>
