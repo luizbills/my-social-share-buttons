@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: My Social Share Buttons
+Plugin Name: Simplest Social Share Buttons
 Description: Add social share buttons.
-Version: 1.2.0
+Version: 1.0.0
 GitHub Plugin URI: https://github.com/luizbills/my-social-share-buttons
 
 Author: Luiz Bills
