@@ -25,7 +25,7 @@ function mssb_render_buttons ( $options = [] ) {
 		<div class="mssb-button-list">
 			<?php foreach ( $networks as $network ) : ?>
 
-			<a href="<?php echo mssb_get_social_share_url( $network, $options ); ?>" target="_blank" class="mssb_button" rel="nofollow noopener noreferrer" >
+			<a href="<?php echo mssb_get_social_share_url( $network, $options ); ?>" target="_blank" class="mssb-button mssb-button-<?php echo $network;?>" rel="nofollow noopener noreferrer" >
 				<?php echo mssb_get_network_image( $network, $options ); ?>
 			</a>
 
