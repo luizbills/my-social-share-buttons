@@ -36,8 +36,9 @@ function mssb_get_social_networks () {
 	return apply_filters( 'mssb_social_networks', $default_list );
 }
 
-function mssb_get_network_image ( $network ) {
+function mssb_get_network_image ( $network, $options ) {
 	$src = MSSB_ASSETS_URL . "images/${network}.svg";
-
-	return apply_filters( 'mssb_network_image', "<img src='$src' class='mssb-button-image' alt='$network icon' width='48' height='48'>" , $network );
+	$size = $options['icon_size'];
+	
+	return apply_filters( 'mssb_network_image', "<img src='$src' class='mssb-button-image' alt='$network icon' width='$size' height='$size'>" , $network );
 }
