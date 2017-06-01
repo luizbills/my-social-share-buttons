@@ -3,6 +3,7 @@
 Plugin Name: My Social Share Buttons
 Description: Add social share buttons.
 Version: 2.0.3
+GitHub Plugin URI: https://github.com/luizbills/my-social-share-buttons
 
 Author: Luiz Bills
 Author URI: https://luizp.com
